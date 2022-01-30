@@ -1,6 +1,5 @@
 //1791. Find Center of Star Graph
 
-
 class Solution {
 public:
     int findCenter(vector<vector<int>>& edges)
