@@ -4,10 +4,12 @@
 https://leetcode.com/problems/number-of-enclaves/
 
 
-#In this question, we were asked to find the number of land cells(1) for which we cannot walk off the boundary of the grid. This means we don't need to consider the boundary 1's because they will results in walking off from the boundary.
+#In this question, we were asked to find the number of land cells(1) for which we cannot walk off the boundary of the grid. This means we don't need to consider the 
+boundary 1's because they will results in walking off from the boundary.
 
 
-Intuition :- Making all the boundary 1's as 0. Followed by traversing the matrix , the total number of 1 is equal to the total number of land cells for which we cannot walk off the boundary.
+Intuition :- Making all the boundary 1's as 0. Followed by traversing the matrix , the total number of 1 is equal to the total number of land cells for which we cannot
+walk off the boundary.
 
 1. TC=O(n^2)
 2. SC=O(1)
