@@ -1,6 +1,6 @@
 /*
 # Detonate the Bomb
-# https://leetcode.com/problems/detonate-the-bomb/
+# https://leetcode.com/problems/detonate-the-maximum-bombs/
 
 Intuition: How can this question be solved by graph? ->Each bomb can be treated as a bomb and then the start bomb points to others(directed graph).
 * Use x2+y2<=r2 Formula from Circle to check for the bombs in the vicinity.
