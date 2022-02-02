@@ -5,9 +5,8 @@
 https://leetcode.com/problems/number-of-closed-islands/
 
 
-#In this question we were asked to find the lands(0's) that were 4-Directionally surrounded by water (1). So, it is obvious that we won't consider the boundary 0's because it can never be 4-directionally surrounded by water (at max ,the boundary 0's can be 3directionally
-surrounded with water).
-
+#In this question we were asked to find the lands(0's) that were 4-Directionally surrounded by water (1). So, it is obvious that we won't consider the boundary 0's 
+because it can never be 4-directionally surrounded by water(at max ,the boundary 0's can be 3-directionally surrounded with water).
 
 **Intuition :** Make all the boundary 0's as 1. Followed by making DFS call. The total number of DFS calls gives the total number of closed island.
 
