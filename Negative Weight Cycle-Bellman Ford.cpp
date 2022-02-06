@@ -1,3 +1,11 @@
+/*
+If there is a negative cycle, we can't apply Bellman-Ford
+Bellman Ford algorithm helps detecting negative cycle
+(Once you hsve relaxed the graph N-1 times, if you try to relax once more and there is decrease in dist there is a negative cycle)
+Bellman works in directed graph only
+Incase of undirected graph, it needs to be converted to directed graph
+*/
+#include<bits/stdc++.h>
 class Solution
 {
 	public:
@@ -26,6 +34,9 @@ class Solution
         /*
         1. Choose the smallest distance node, mark it as processed
         2. Relax(Update) it's neighbour(if curr edge wt.+dis[of previous]<dist[current])
+        3. dis[u] + wt < dist[v]
+        4.T.C.: O(N-1)*O(E)
+        5. S.C.: O(N)
         */
         // Make a note of the representation of the weighted undirected graph using stl
         vector<bool>proc(V,false); // Array to keep track of the processed nodes
