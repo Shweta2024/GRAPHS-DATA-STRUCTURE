@@ -2,7 +2,7 @@
 886. Possible Bipartition
 
 https://leetcode.com/problems/possible-bipartition/
-
+ 
 Intuition :-
 1. Maintain a color vector ,initially all elements as -1. //it will keep track of the colors of all adjacent nodes.
 2. If a node isn't colored ,then make dfs call & set its color to 1.
